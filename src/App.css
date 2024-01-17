@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+  }
+  
+  .navigationBar{
+    background-color: #feee00;
+  }
+  @media only screen and (min-width: 1040px) {
+    body{
+      overflow-x: hidden;
+    }
+   }
+  
+  .footer-1 div{
+    width: 14%;
+  }
+  ul{
+    list-style: none;  
+    font-size: 14px;
+    padding: 0;
+  }
